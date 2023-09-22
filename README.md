@@ -1,4 +1,4 @@
-# INVESTMAT Repository
+
 ![Investmat Logo](images/logo.png)
 ## Overview
 INVESTMAT is a specialized repository encompassing a vast range of academic content and developmental resources associated with the **Master of Science in Applied Mathematics program**. Originating from a collaboration between the University of Valencia and the Polytechnic University of Valencia (UPV), it is a pivotal platform aimed at prospective students, academic researchers, and enthusiasts in Applied Mathematics, offering a plethora of insightful resources and materials.
