@@ -17,19 +17,14 @@ The repository revolves around the UPV-UV Interuniversity Doctorate in Mathemati
 
 ## Relevant Coursework
 
-| Course Title                                          | Description                                         | Content                                    |
-|-------------------------------------------------------|-----------------------------------------------------|----------------------------------------------------|
-| **Mathematical Modeling in Industry**                 | Application of mathematical techniques to solve real-world industrial problems. | [📁 View Folder]()           |
-| **Numerical Methods for Engineering**                 | Focused study on differential and partial differential equations in engineering. | [📁 View Folder](<Internal-Folder-URL-2>)           |
-| **Signal and Image Processing using Wavelets**        | Implementation and analysis of wavelets for signal and image processing. | [📁 View Folder](<Internal-Folder-URL-3>)           |
-| **Topological Asymmetric Structures and Fuzzy: Applications** | Exploration of topological structures and fuzzy logic in various applications. | [📁 View Folder](<Internal-Folder-URL-4>)           |
-| **Numerical Methods for Solving Systems of Equations**| Investigation of methods and techniques to solve different systems of equations. | [📁 View Folder](<Internal-Folder-URL-5>)           |
-| **Algebraic Methods and their Applications**          | Study of algebraic methods and their applicability in different mathematical problems. | [📁 View Folder](<Internal-Folder-URL-6>)           |
-| **Methodological Tools in Mathematical Research**     | Introduction to various tools and methodologies used in mathematical research. | [📁 View Folder](<Internal-Folder-URL-7>)           |
-| **Neural Networks and Genetic Algorithms**            | Exploration of neural networks and genetic algorithms in mathematical problem solving. | [📁 View Folder](<Internal-Folder-URL-8>)           |
-| **Fundamental Mathemtics**            | Math fundamentals | [📁 View Folder](courses/MatFun/index.html)           |
-
-
+| University                     | Course Type | Course Name                                                              | Translation (English)                                      | Link                            |
+|--------------------------------|-------------|---------------------------------------------------------------------------|------------------------------------------------------------|---------------------------------|
+| Universitat Politècnica de València | (obl)       | Modelización matemática en la Industria                                   | Mathematical Modeling in Industry                          | [📂](courses/MatInd/index.html)      |
+|                                | (obl)       | Herramientas metodológicas en la investigación matemática                 | Methodological Tools in Mathematical Research              | [📂](courses/HerMat/index.html)      |
+|                                | (opt)       | Métodos numéricos en Ingeniería: Ecuaciones diferenciales y en derivadas parciales | Numerical Methods in Engineering: Differential and Partial Differential Equations | [📂](courses/EdoEdp/index.html) |
+| Universitat de València        | (obl)       | Iniciación a la investigación matemática                                  | Introduction to Mathematical Research                     | [📂](courses/InvMat/index.html)      |
+|                                | (obl)       | Fundamentos de matemática avanzada                                        | Foundations of Advanced Mathematics                       | [📂](courses/MatFun/index.html)      |
+|                                | (opt)       | Fundamentos geométricos de diseño con ordenador                           | Geometric Foundations of Computer Design                  | [📂](courses/FGDO/index.html)      |
 
 ## Skills Acquired
 - Mathematics
