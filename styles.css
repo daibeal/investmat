@@ -86,3 +86,29 @@ a {
 a:hover {
     color: #333333;
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+
+    table, th, td {
+        padding: 8px;
+    }
+
+    header img {
+        width: 80%;
+        border-radius: 1em;
+        
+
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    ul li {
+        padding: 5px;
+    }
+}

@@ -7,16 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INVESTMAT</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <header>
+    <header data-aos="fade-up">
         <img src="images/logo.png" alt="Investmat Logo">
     </header>
 
     <main>
-        <section id="overview">
+        <section data-aos="fade-up" data-aos-offset="500" id="overview">
             <h2>Overview</h2>
             <p>INVESTMAT is a specialized repository encompassing a vast range of academic content and developmental
                 resources associated with the <strong>Master of Science in Applied Mathematics program</strong>. Originating
@@ -25,7 +26,7 @@
                 Applied Mathematics, offering a plethora of insightful resources and materials.</p>
         </section>
 
-        <section id="affiliated-institutions">
+        <section data-aos="fade-up" id="affiliated-institutions">
             <h2>Affiliated Institutions</h2>
             <ul>
                 <li><a href="https://www.uv.es">University of Valencia</a></li>
@@ -33,18 +34,18 @@
             </ul>
         </section>
 
-        <section id="program-duration">
+        <section data-aos="fade-up" id="program-duration">
             <h2>Program Duration</h2>
             <p>September 2023 - June 2024</p>
         </section>
 
-        <section id="collaborative-program">
+        <section data-aos="fade-up" id="collaborative-program">
             <h2>Collaborative Program</h2>
             <p>The repository revolves around the UPV-UV Interuniversity Doctorate in Mathematics, renowned for its
                 academic excellence and comprehensive approach in the domain of mathematics.</p>
         </section>
 
-        <section id="relevant-coursework">
+        <section data-aos="fade-up"  id="relevant-coursework">
             <h2>Relevant Coursework</h2>
             <table border="1">
                 <tr>
@@ -118,7 +119,10 @@
         <p style="margin: 0;">© 2023 <a href="https://daibeal.me">@daibeal</a>. All Rights Reserved.</p>
     </footer>
     
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
