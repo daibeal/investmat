@@ -110,3 +110,67 @@ a {
 a:hover {
     color: #333333;
 }
+
+@media (max-width: 767px) { /* Targeting devices with screen width less or equal to 767px */
+   
+
+    #tabla-clases thead {
+      display: none; /* Hide table headers (but not display: none;, for accessibility) */
+    }
+    /* center the table */
+    #tabla-clases {
+      margin: 0 auto;
+      width: 100%;
+    }
+    /* cahange colors to green of table */
+    #tabla-clases tbody tr:nth-child(odd) {
+      background-color: #50b3a2;
+      /* text white */
+        color: #ffffff;
+    }
+
+    body {
+        /* center */
+        margin: 0 auto;
+        width: 100%;
+        /* center elemnets */
+        text-align: center;
+    }
+
+
+
+  }
+
+
+  /* write something so the footer has space after last text from the body */
+  /* bottom padding on references */
+    
+        
+    
+    .footer {
+        /* top marign */
+        /* the text is on top of the body do something */
+        margin-top: 100px;
+        background-color: #333;
+        color: #ffffff;
+        padding: 20px;
+        height: 100px;
+    }   
+
+    /* change the color of the btn */
+
+    .btn {
+        background-color: #50b3a2;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .btn:hover {
+        background-color: #333333;
+        color: #ffffff;
+    }
+  
