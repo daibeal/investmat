@@ -51,7 +51,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background: #50b3a2;
+    background: #000000;
     color: #ffffff;
 }
 
@@ -70,7 +70,7 @@ th, td {
 }
 
 th {
-    background-color: #50b3a2;
+    background-color: #000000;
     color: white;
 }
 
@@ -79,13 +79,18 @@ tr:nth-child(even) {
 }
 
 a {
-    color: #50b3a2;
+    color: #f24916;
     text-decoration: none;
-}
+    /* bold */
+    font-weight: bold;
+    /* underline */
+    text-decoration: underline;
+} 
 
 a:hover {
     color: #333333;
 }
+
 
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
