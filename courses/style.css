@@ -5,6 +5,14 @@ iframe {
     height: 600px; /* Adjust as necessary */
 }
 
+#nag{
+    background-color: #000000 !important;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+
 /* Style the footer */
 footer {
     background-color: #333; /* Dark background for contrast */
@@ -75,7 +83,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background: #50b3a2;
+    background: black;
     color: #ffffff;
 }
 
@@ -94,7 +102,7 @@ th, td {
 }
 
 th {
-    background-color: #50b3a2;
+    background-color: black;
     color: white;
 }
 
@@ -124,7 +132,7 @@ a:hover {
     }
     /* cahange colors to green of table */
     #tabla-clases tbody tr:nth-child(odd) {
-      background-color: #50b3a2;
+      background-color: black;
       /* text white */
         color: #ffffff;
     }
@@ -160,7 +168,7 @@ a:hover {
     /* change the color of the btn */
 
     .btn {
-        background-color: #50b3a2;
+        background-color: black;
         color: #ffffff;
         border: none;
         padding: 10px 20px;
@@ -173,4 +181,4 @@ a:hover {
         background-color: #333333;
         color: #ffffff;
     }
-  
+
