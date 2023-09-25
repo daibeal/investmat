@@ -4,114 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Name</title>
+    <title>Métodos numéricos para la Ingeniería: Ecuaciones diferenciales y en derivadas parciales
+    </title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- link css -->
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-
-<div class="container mt-5">
+    <nav id="nag" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Métodos numéricos para la Ingeniería: Ecuaciones diferenciales y en derivadas parciales</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a id="books-link" class="nav-item nav-link" href="http://books.daibeal.me">Books</a>
+                <a class="nav-item nav-link" href="../../calendar.html">Calendar</a>
+                <a class="nav-item nav-link" href="https://www.icloud.com/reminders/">Tasks</a>
+                <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+            </div>
+        </div>
+    </nav>
+<div class="container mt-5" id="main-content">
     <header class="text-center mb-4">
-        <h1>Numerical Methods in Engineering: Differential and Partial Differential Equations</h1>
+        <h1>Métodos numéricos para la Ingeniería: Ecuaciones diferenciales y en derivadas parciales
+        </h1>
     </header>
 
     <section id="syllabus">
         <h2 class="mb-3">Syllabus</h2>
-        <iframe src="https://upvedues-my.sharepoint.com/personal/daibeal_upv_edu_es/_layouts/15/embed.aspx?UniqueId=053baea8-5a82-44c4-8c92-e5695a9a726f"  frameborder="0" scrolling="no" allowfullscreen title="guia_docente_MatInd.pdf"></iframe>
+        <iframe src="guia_docente_EdoEdp.pdf"  frameborder="0" scrolling="no" allowfullscreen title="guia_docente_MatInd.pdf"></iframe>
     </section>
 
     <section id="classes" class="mt-5">
         <h2 class="mb-3">Classes</h2>
-        <table class="table table-bordered">
-            <thead>
-            <tr>
-                <th>Class Number</th>
-                <th>Topic</th>
-                <th>Date</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>1</td>
-                <td>Introduction to Mathematical Modeling</td>
-                <td>MM-DD-YYYY</td>
-            </tr>
-            <!-- More Classes Here -->
-            <!-- add classses -->
+        <div class="table-responsive">
+            <table class="table table-bordered" id="tabla-clases">
+                <thead>
+                <tr>
+                    <th>Class Number</th>
+                    <th>Topic</th>
+                    <th>Date</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td data-label="Class Number">1</td>
+                    <td data-label="Topic">Introduction to Mathematical Modeling</td>
+                    <td data-label="Date">MM-DD-YYYY</td>
+                </tr>
+                <!-- More rows here -->
+                </tbody>
+            </table>
+        </div>
+        
 
-            <tr>
-                <td>2</td>
-                <td>Introduction to Mathematical Modeling</td>
-                <td>MM-DD-YYYY</td>
-
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Introduction to Mathematical Modeling</td>
-                <td>MM-DD-YYYY</td>
-
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Introduction to Mathematical Modeling</td>
-                <td>MM-DD-YYYY</td>
-
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Introduction to Mathematical Modeling</td>
-                <td>MM-DD-YYYY</td>
-
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Introduction to Mathematical Modeling</td>
-                <td>MM-DD-YYYY</td>
-
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Introduction to Mathematical Modeling</td>
-                <td>MM-DD-YYYY</td>
-
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Introduction to Mathematical Modeling</td>
-                <td>MM-DD-YYYY</td>
-
-            </tr>
-
-            </tbody>
-        </table>
+        
+        
     </section>
 
-    <section id="references" class="mt-5">
-        <h2 class="mb-3">Bibliography</h2>
-        <ol>
-            <li>Author Name, <em>Book Title</em>, Publisher, Year.</li>
-            <!-- More References Here -->
-        </ol>
-    </section>
+   <section id="references" class="mt-5 p-3">
+    <h2 class="mb-3 text-center">Bibliography</h2>
+    <div class="text-center mb-4"> <!-- Added margin-bottom for spacing between the button and the list -->
+        <a href="http://books.daibeal.me" class="btn btn-primary btn-lg" role="button">View All Books</a> <!-- Made the button larger and more descriptive -->
+    </div>
+    <ol class="list-group list-group-numbered">
+        <li class="list-group-item">Numerical computing with MATLAB</li>
+        <li class="list-group-item">A dynamic trading rule based on filtered flag pattern recognition for stock market price forecasting</li>
+        <li class="list-group-item">Tratamiento de señales digitales mediante wavelets y su uso con MATLAB</li>
+        <li class="list-group-item">Application and optimization of the discrete wavelet transform for the detection of broken rotor bars in induction machines</li>
+        <li class="list-group-item">Systems biology: constraint-based reconstruction and analysis</li>
+        <li class="list-group-item">An introduction to systems biology: design principles of biological circuits</li>
+    </ol>
+</section>
+
+<!-- insert white block space -->
+<div style="height: 60px; width: 100%; background-color: #ffffff;"></div>
+
+    
+    
 </div>
+
+
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- add footer -->
 
-<footer>
-    <div class="container-fluid text-white text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <!-- ad daibeal link to daibeal.me -->
-                <p class="lead"><a href="https://daibeal.me">@daibeal</a></p>
-                
-                <p class="lead">València, Spain</p>
-            </div>
-        </div>
-    </div> 
+<footer style="background-color: #2c3e50; color: #ffffff; text-align: center; padding: 10px; position: fixed; left: 0; bottom: 0; width: 100%;">
+    <p style="margin: 0;">© 2023 <a href="https://daibeal.me">@daibeal</a>. All Rights Reserved.</p>
 </footer>
 </body>
 
