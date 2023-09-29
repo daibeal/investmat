@@ -1,23 +1,41 @@
+/* Define CSS Variables for better maintainability */
+:root {
+    --primary-bg-color: #f4f4f4;
+    --primary-text-color: #333;
+    --link-color: #f24916;
+    --hover-bg-color: #000000;
+    --hover-text-color: #ffffff;
+    --header-color: #ffffff;
+    --border-color: #ddd;
+    --table-bg-color: #f2f2f2;
+    --table-header-bg-color: #000000;
+}
+
+/* Resetting margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    background-color: var(--primary-bg-color);
 }
 
 header {
     background: none;
-    color: #ffffff;
+    color: var(--header-color);
     padding-top: 30px;
     text-align: center;
 }
 
+/* Styling header image */
 header img {
-    /* width: 200px; */
-    border-radius: 3em;
-    /* margin top and bottom */
-    margin: 0 auto 20px auto;
+    margin: 0 auto 20px auto; /* Top and bottom margin */
+    border: 10px solid #e75d0d; /* Thick border */
+    border-radius: 1em;
 }
 
 main {
@@ -33,35 +51,34 @@ p {
 }
 
 ul {
-    padding: 0;
-    margin: 0;
     list-style: none;
 }
 
 ul li {
-    background: #ffffff;
+    background: var(--header-color);
     margin-bottom: 1px;
     padding: 8px;
 }
 
 ul li a {
     text-decoration: none;
-    color: #333;
+    color: var(--primary-text-color);
     display: block;
 }
 
 ul li a:hover {
-    background: #000000;
-    color: #ffffff;
+    background: var(--hover-bg-color);
+    color: var(--hover-text-color);
+}
+
+/* Styling table elements */
+table, th, td {
+    border: 1px solid var(--border-color);
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid #ddd;
 }
 
 th, td {
@@ -70,27 +87,24 @@ th, td {
 }
 
 th {
-    background-color: #000000;
-    color: white;
+    background-color: var(--table-header-bg-color);
+    color: var(--header-color);
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: var(--table-bg-color);
 }
 
+/* Styling anchor elements */
 a {
-    color: #f24916;
-    text-decoration: none;
-    /* bold */
-    font-weight: bold;
-    /* underline */
+    color: var(--link-color);
     text-decoration: underline;
-} 
+    font-weight: bold; /* bold */
+}
 
 a:hover {
-    color: #333333;
+    color: var(--primary-text-color);
 }
-
 
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
@@ -104,9 +118,6 @@ a:hover {
 
     header img {
         width: 80%;
-        border-radius: 1em;
-        
-
     }
 
     h2 {
